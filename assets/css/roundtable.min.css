@@ -105,7 +105,7 @@ p {
 @media screen and (orientation: landscape) {
   #animation .text {
     width: 75vw;
-    height: 6vw;
+    height: calc(6vw + 0.1em);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -123,7 +123,7 @@ p {
     position: fixed;
     top: 50%;
     left: 50%;
-    height: 6vh;
+    height: calc(6vh + 0.1em);
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   .word{
