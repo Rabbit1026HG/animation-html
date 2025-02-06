@@ -168,12 +168,12 @@ p {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  transition: bottom 1.5s ease-in-out;
+  transition: bottom 1s ease-in-out;
   min-height: 350px;
 }
 .interested #info_panel {
   bottom: 0;
-  transition-delay: 1s;
+  transition-delay: 0.5s;
 }
 #info_panel * {
   color: #fff;
@@ -217,9 +217,9 @@ p {
     transform: translate(0, 100%);
   }
 }
-.interested #info_panel h1 span#tacho_1 {
-  animation: 7s ease-in-out 3s infinite forwards tachometer_1;
-}
+/* .interested #info_panel h1 span#tacho_1 {
+  animation: 1s ease-in-out 1s infinite forwards tachometer_1;
+} */
 @keyframes tachometer_2 {
   0%,
   40% {
@@ -236,9 +236,9 @@ p {
 #info_panel h1 span#tacho_2 {
   transform: translate(0, 100%);
 }
-.interested #info_panel h1 span#tacho_2 {
-  animation: 7s ease-in-out 3s infinite forwards tachometer_2;
-}
+/* .interested #info_panel h1 span#tacho_2 {
+  animation: 1s ease-in-out 1s infinite forwards tachometer_2;
+} */
 #info_panel p {
   font-size: clamp(17px, 1.0416vw, 26.6666px);
   margin: 2em 0;
