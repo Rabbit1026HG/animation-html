@@ -37,21 +37,6 @@ ul {
   letter-spacing: 0.168em;
   font-family: Mabry, sans-serif;
 }
-/* @font-face {
-  font-family: Mabry;
-  src: url("/fonts/mabry-medium-pro.woff2") format("woff2"),
-    url("/fonts/mabry-medium-pro.woff") format("woff"),
-    url("/fonts/mabry-medium-pro.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Reckless;
-  src: url("/fonts/RecklessNeue-Medium.woff2") format("woff2"),
-    url("/fonts/RecklessNeue-Medium.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-} */
 
 html {
   line-height: 1.2;
@@ -120,14 +105,14 @@ p {
 @media screen and (orientation: landscape) {
   #animation .text {
     width: 75vw;
-    height: 7vw;
+    height: 6vw;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .word{
-    font-size: 7vw;
+    font-size: 6vw;
   }
 }
 
@@ -138,11 +123,11 @@ p {
     position: fixed;
     top: 50%;
     left: 50%;
-    height: 7vh;
+    height: 6vh;
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   .word{
-    font-size: 7vh;
+    font-size: 6vh;
   }
 }
 
@@ -225,9 +210,6 @@ p {
     transform: translate(0, 100%);
   }
 }
-/* .interested #info_panel h1 span#tacho_1 {
-  animation: 1s ease-in-out 1s infinite forwards tachometer_1;
-} */
 @keyframes tachometer_2 {
   0%,
   40% {
@@ -244,9 +226,6 @@ p {
 #info_panel h1 span#tacho_2 {
   transform: translate(0, 100%);
 }
-/* .interested #info_panel h1 span#tacho_2 {
-  animation: 1s ease-in-out 1s infinite forwards tachometer_2;
-} */
 #info_panel p {
   font-size: clamp(17px, 1.0416vw, 26.6666px);
   margin: 2em 0;
@@ -320,7 +299,7 @@ p {
   width: auto;
   min-width: min-content;
   white-space: nowrap;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
 
 
@@ -347,10 +326,3 @@ p {
   opacity: 1;
   transition: transform 0.38s
 }
-
-
-
-
-
-
-
